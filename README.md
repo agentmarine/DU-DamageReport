@@ -5,7 +5,7 @@ Dorian Gray has ended development, I make no promises but will be looking to fix
 
 
 
-![Standard View](https://github.com/paulheu/DU-DamageReport/blob/main/img/DR_Logo1.png)
+![Standard View](/img/DR_Logo1.png)
 
 # Damage Report v3.31 (DU-DamageReport)
 
