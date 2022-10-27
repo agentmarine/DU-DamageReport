@@ -44,6 +44,7 @@ This script is comparably intense in regards to DU CPU resources required. Using
 Having said all of this, I successfully used the script on a 1100 element L core ship (on one screen) without problems.
 
 # Wiki
+- [Changelog](https://github.com/LocuraDU/DU-DamageReport/wiki/Changelog)
 - [Installation](https://github.com/LocuraDU/DU-DamageReport/wiki/Installation)
 - [Usage](https://github.com/LocuraDU/DU-DamageReport/wiki/Usage)
 - [Roadmap](https://github.com/LocuraDU/DU-DamageReport/wiki/Roadmap)
