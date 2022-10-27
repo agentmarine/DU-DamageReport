@@ -4,9 +4,6 @@
 # Information
 A multi-screen capable, touch enabled, easy to install ship damage reporting script for Dual Universe. Includes a HUD mode to be mobile while repairing. Highlights damaged/broken elements in 3D space for easier finding.
 
-> **Note**
-> The linking order is important, or your touchscreen will not work (see installation instructions below). Recommendation: run it with only one screen or two, because otherwise you will likely run into script CPU usage problems before optimizations are done.
-
 [![](https://img.shields.io/badge/DU-1.0.10-green?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/2000270/Dual_Universe/)
 [![](https://img.shields.io/badge/Maintained-YES-green?style=for-the-badge)](#)
 [![](https://img.shields.io/badge/VERSION-v3.31d-green?style=for-the-badge)](#)
