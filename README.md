@@ -20,9 +20,6 @@ A multi-screen capable, touch enabled, easy to install ship damage reporting scr
 [![](https://img.shields.io/github/contributors/locuradu/DU-DamageReport?label=CONTRIBUTORS&style=flat-square)](#)
 [![](https://img.shields.io/github/releases/locuradu/DU-DamageReport?label=RELEASES&style=flat-square)](#)
 
-
-![Standard View](/img/DR_Logo1.png)
-
 # Preview
 <img src="img/1a.png" height="136" width="200"><img src="img/1.png" height="136" width="200"><img src="img/2.png" height="136" width="200"><img src="img/3.png" height="136" width="200"><img src="img/4.png" height="136" width="200"><img src="img/5.png" height="136" width="200">
 
