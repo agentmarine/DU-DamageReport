@@ -36,6 +36,17 @@ Having said all of this, I successfully used the script on a 1100 element L core
 - [Roadmap](https://github.com/LocuraDU/DU-DamageReport/wiki/Roadmap)
 - [Known Issues](https://github.com/LocuraDU/DU-DamageReport/wiki/Known-Issues)
 
+# Screen And Sign Compatibility
+:blue_square: Not Tested :green_square: Working :yellow_square: Partially Works Without Edits :red_square: Not Working Without Edits
+> **Note**
+> Please post in Discussions if you can confirm a screen or sign.
+- :green_square: Screens
+- :green_square: Modern Screens
+- :green_square: Transparent Screens
+- :green_square: Modern Transparent Screens
+- :blue_square: Signs
+- :blue_square: Vertical Signs
+
 # Ways To Help
 - Contribute new code, or updating whats already here
 - Donate for Dr Pepper funds at Venmo @terranbytes
