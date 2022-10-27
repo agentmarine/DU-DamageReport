@@ -1,5 +1,3 @@
-Dorian Gray has ended development, I make no promises but will be looking to fix any issues that may still come up
-
 3.31d adds XS Space Tank support and fixes arrows not working.
 
 
