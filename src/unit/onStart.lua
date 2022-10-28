@@ -1,22 +1,20 @@
 --[[
-    Damage Report 3.31d
+    Damage Report 3.31e
     A LUA script for Dual Universe
 
     Created By Dorian Gray
-    Ingame: DorianGray
-    Discord: Dorian Gray#2623
+    Maintained By CredenceH
 
-    3.31d changes:
-      [ADD] XS space tanks
-      [FIX] arrows showing broken elements
+    3.31e changes:
+      [FIX] fixed version mismatched
 
     You can find/update this script on GitHub. Explanations, installation and usage information as well as screenshots can be found there too.
-    GitHub: https://github.com/DorianTheGrey/DU-DamageReport
+    GitHub: https://github.com/LocuraDU/DU-DamageReport
 
     GNU Public License 3.0. Use whatever you want, be so kind to leave credit.
 
     Credits & thanks:
-        Thanks to Jericho, Dmentia and Archaegeo for learning a lot from their fine scripts.
+        Thanks to Jericho, Dmentia, Archaegeo, and blazemonger for learning a lot from their fine scripts.
         Thanks to TheBlacklist for testing and wonderful suggestions.
         SVG patterns by Hero Patterns.
         DU atlas data from Jayle Break.
@@ -61,7 +59,7 @@ ColorFuelAtmospheric = "004444" -- Enter the hexcode of the atmospheric fuel col
 ColorFuelSpace = "444400" -- Enter the hexcode of the space fuel color.
 ColorFuelRocket = "440044" -- Enter the hexcode of the rocket fuel color.
 
-VERSION = "3.31c"
+VERSION = "3.31e"
 DebugMode = false
 DebugRenderClickareas = true
 
@@ -2990,7 +2988,7 @@ function GetContentStartup()
     if #Warnings > 0 then
         output = output .. [[<text class="f25mc" x="960" y="880">Warning: ]]..(table.concat(Warnings, " "))..[[</text>]]
     end
-    output = output .. [[<text class="f30mxx" style="fill-opacity:0.2" x="960" y="1000">Damage Report v]]..VERSION..[[, by DorianGray - Discord: Dorian Gray#2623.</text>]]
+    output = output .. [[<text class="f30mxx" style="fill-opacity:0.2" x="960" y="1000">Damage Report v]]..VERSION..[[, by CredenceH - GitHub: LocuraDU.</text>]]
     return output
 end
 
@@ -3289,7 +3287,11 @@ end
 
 unit.hideWidget()
 ClearConsole()
-PrintConsole("DAMAGE REPORT v"..VERSION.." STARTED", true)
+system.print("----------------------------------------")
+system.print("DAMAGE REPORT v" .. VERSION)
+system.print("GitHub/LocuraDU")
+system.print("----------------------------------------")
+-- PrintConsole("DAMAGE REPORT v"..VERSION.." STARTED", true)
 InitiateSlots()
 LoadFromDatabank()
 SwitchScreens("on")
