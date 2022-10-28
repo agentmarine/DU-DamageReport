@@ -31,7 +31,7 @@ A multi-screen capable, touch enabled, easy to install ship damage reporting scr
 - [Known Issues](https://github.com/LocuraDU/DU-DamageReport/wiki/Known-Issues)
 
 # DU-LUA.Dev
-[![img](https://du-lua.dev/img/open_in_editor_button.png)](https://du-lua.dev/#/editor/github/LocuraDU/DU-DamageReport)
+[![img](img/open_in_editor_button.png)](https://du-lua.dev/#/editor/github/LocuraDU/DU-DamageReport)
 
 # Important Notes
 
