@@ -1,22 +1,18 @@
 --[[
-    Damage Report 3.31c
+    Damage Report 3.31e
     A LUA script for Dual Universe
-
     Created By Dorian Gray
-    Ingame: DorianGray
-    Discord: Dorian Gray#2623
-
+    Maintained By CredenceH
+    3.31e changes:
+      [FIX] fixed version mismatched
     You can find/update this script on GitHub. Explanations, installation and usage information as well as screenshots can be found there too.
-    GitHub: https://github.com/DorianTheGrey/DU-DamageReport
-
+    GitHub: https://github.com/LocuraDU/DU-DamageReport
     GNU Public License 3.0. Use whatever you want, be so kind to leave credit.
-
     Credits & thanks:
-        Thanks to Jericho, Dmentia and Archaegeo for learning a lot from their fine scripts.
+        Thanks to Jericho, Dmentia, Archaegeo, and blazemonger for learning a lot from their fine scripts.
         Thanks to TheBlacklist for testing and wonderful suggestions.
         SVG patterns by Hero Patterns.
         DU atlas data from Jayle Break.
-
 ]]
 
 --[[ 1. USER DEFINED VARIABLES ]]
