@@ -1,4 +1,4 @@
-:heavy_exclamation_mark: | As of release 1.0 HTML on screens and signs is off by default. You will need to enter settings and enable them. Code is being updated.
+:heavy_exclamation_mark: | HTML on screens and signs is off by default. You will need to enter settings and enable them.
 :---: | :---
 
 # Information
