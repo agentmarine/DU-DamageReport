@@ -327,218 +327,59 @@ end
 
 --[[ epochTime function by Leodr (clock script), enhanced by Jericho (DU Industry script) ]]
 function epochTime()
-    function rZ(a)
-        if string.len(a) <= 1 then
-            return "0" .. a
-        else
-            return a
-        end
-    end
-    function dPoint(b)
-        if not (b == math.floor(b)) then
-            return true
-        else
-            return false
-        end
-    end
-    function lYear(year)
-        if not dPoint(year / 4) then
-            if dPoint(year / 100) then
-                return true
+   local t = system.getUtcTime()
+    if not utc then t = t + system.getUtcOffset() end
+    local DSEC=24*60*60
+    local YSEC=365*DSEC
+    local LSEC=YSEC+DSEC
+    local FSEC=4*YSEC+DSEC
+    local BASE_DOW=4
+    local BASE_YEAR=1970
+    local _days={-1, 30, 58, 89, 119, 150, 180, 211, 242, 272, 303, 333, 364}
+    local _lpdays={}
+    for i=1,2  do _lpdays[i]=_days[i]   end
+    for i=3,13 do _lpdays[i]=_days[i]+1 end
+    local y,j,m,d,w,h,n,s
+    local mdays=_days
+    s=t
+    y=math.floor(s/FSEC)
+    s=s-y*FSEC
+    y=y*4+BASE_YEAR
+    if s>=YSEC then
+        y=y+1
+        s=s-YSEC
+        if s>=YSEC then
+            y=y+1
+            s=s-YSEC
+            if s>=LSEC then
+                y=y+1
+                s=s-LSEC
             else
-                if not dPoint(year / 400) then
-                    return true
-                else
-                    return false
-                end
-            end
-        else
-            return false
-        end
-    end
-    local c = 5;
-    local d = 3600;
-    local e = 86400;
-    local f = 31536000;
-    local g = 31622400;
-    local h = 2419200;
-    local i = 2505600;
-    local j = 2592000;
-    local k = 2678400;
-    local l = {4, 6, 9, 11}
-    local m = {1, 3, 5, 7, 8, 10, 12}
-    local n = 0;
-    local o = 1506816000;
-    local q = system.getArkTime()
-    _G["formerTime"] = q
-    if AddSummertimeHour == true then q = q + 3600 end
-    now = math.floor(q + o)
-    year = 1970;
-    secs = 0;
-    n = 0;
-    while secs + g < now or secs + f < now do
-        if lYear(year + 1) then
-            if secs + g < now then
-                secs = secs + g;
-                year = year + 1;
-                n = n + 366
-            end
-        else
-            if secs + f < now then
-                secs = secs + f;
-                year = year + 1;
-                n = n + 365
+                mdays=_lpdays
             end
         end
     end
-    secondsRemaining = now - secs;
-    monthSecs = 0;
-    yearlYear = lYear(year)
-    month = 1;
-    while monthSecs + h < secondsRemaining or monthSecs + j < secondsRemaining or
-        monthSecs + k < secondsRemaining do
-        if month == 1 then
-            if monthSecs + k < secondsRemaining then
-                month = 2;
-                monthSecs = monthSecs + k;
-                n = n + 31
-            else
-                break
-            end
-        end
-        if month == 2 then
-            if not yearlYear then
-                if monthSecs + h < secondsRemaining then
-                    month = 3;
-                    monthSecs = monthSecs + h;
-                    n = n + 28
-                else
-                    break
-                end
-            else
-                if monthSecs + i < secondsRemaining then
-                    month = 3;
-                    monthSecs = monthSecs + i;
-                    n = n + 29
-                else
-                    break
-                end
-            end
-        end
-        if month == 3 then
-            if monthSecs + k < secondsRemaining then
-                month = 4;
-                monthSecs = monthSecs + k;
-                n = n + 31
-            else
-                break
-            end
-        end
-        if month == 4 then
-            if monthSecs + j < secondsRemaining then
-                month = 5;
-                monthSecs = monthSecs + j;
-                n = n + 30
-            else
-                break
-            end
-        end
-        if month == 5 then
-            if monthSecs + k < secondsRemaining then
-                month = 6;
-                monthSecs = monthSecs + k;
-                n = n + 31
-            else
-                break
-            end
-        end
-        if month == 6 then
-            if monthSecs + j < secondsRemaining then
-                month = 7;
-                monthSecs = monthSecs + j;
-                n = n + 30
-            else
-                break
-            end
-        end
-        if month == 7 then
-            if monthSecs + k < secondsRemaining then
-                month = 8;
-                monthSecs = monthSecs + k;
-                n = n + 31
-            else
-                break
-            end
-        end
-        if month == 8 then
-            if monthSecs + k < secondsRemaining then
-                month = 9;
-                monthSecs = monthSecs + k;
-                n = n + 31
-            else
-                break
-            end
-        end
-        if month == 9 then
-            if monthSecs + j < secondsRemaining then
-                month = 10;
-                monthSecs = monthSecs + j;
-                n = n + 30
-            else
-                break
-            end
-        end
-        if month == 10 then
-            if monthSecs + k < secondsRemaining then
-                month = 11;
-                monthSecs = monthSecs + k;
-                n = n + 31
-            else
-                break
-            end
-        end
-        if month == 11 then
-            if monthSecs + j < secondsRemaining then
-                month = 12;
-                monthSecs = monthSecs + j;
-                n = n + 30
-            else
-                break
-            end
-        end
-    end
-    day = 1;
-    daySecs = 0;
-    daySecsRemaining = secondsRemaining - monthSecs;
-    while daySecs + e < daySecsRemaining do
-        day = day + 1;
-        daySecs = daySecs + e;
-        n = n + 1
-    end
-    hour = 0;
-    hourSecs = 0;
-    hourSecsRemaining = daySecsRemaining - daySecs;
-    while hourSecs + d < hourSecsRemaining do
-        hour = hour + 1;
-        hourSecs = hourSecs + d
-    end
-    minute = 0;
-    minuteSecs = 0;
-    minuteSecsRemaining = hourSecsRemaining - hourSecs;
-    while minuteSecs + 60 < minuteSecsRemaining do
-        minute = minute + 1;
-        minuteSecs = minuteSecs + 60
-    end
-    second = math.floor(now % 60)
-    year = rZ(year)
-    month = rZ(month)
-    day = rZ(day)
-    hour = rZ(hour)
-    minute = rZ(minute)
-    second = rZ(second)
+    j=math.floor(s/DSEC)
+    s=s-j*DSEC
+    local m=1
+    while mdays[m]<j do m=m+1 end
+    m=m-1
+    local d=j-mdays[m]
+    w=(math.floor(t/DSEC)+BASE_DOW)%7
+    if w == 0 then w = 7 end
+    h=math.floor(s/3600)
+    s=s-h*3600
+    n=math.floor(s/60)
+    function round(a,b)if b then return utils.round(a/b)*b end;return a>=0 and math.floor(a+0.5)or math.ceil(a-0.5)end
+    s=round(s-n*60)
+    local weekDaysNames = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"}
+    local weekDaysShortNames = {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"}
+    local monthNames = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"}
+    local monthShortNames = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"}
 
-    return [[<text class="f250mx" x="960" y="540">]]..hour..":".. minute..[[</text>]]..
-           [[<text class="f100mx" x="960" y="660">]]..year.."/".. month.."/"..day..[[</text>]]
+    return [[<text class="f250mx" x="960" y="540">]]..h.." : "..n..[[</text>]]..
+           [[<text class="f100mx" x="960" y="660">]]..weekDaysNames[w].." / ".. monthNames[m].." / ".. d .." / ".. y ..[[</text>]]
+           
 end
 
 
@@ -3284,7 +3125,6 @@ function OnTickData(initial)
 end
 
 --[[ 7. EXECUTION ]]
-
 unit.hideWidget()
 ClearConsole()
 system.print("----------------------------------------")
