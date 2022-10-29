@@ -316,7 +316,7 @@ end
 
 --[[ 4. RENDER HELPER FUNCTIONS ]]
 
---[[ epochTime function by Leodr (clock script), enhanced by Jericho (DU Industry script) ]]
+--[[ TimeScript by Jericho github.com/Jericho1060]]
 function epochTime()
    local t = system.getUtcTime()
     if not utc then t = t + system.getUtcOffset() end
@@ -372,9 +372,6 @@ function epochTime()
            [[<text class="f100mx" x="960" y="660">]]..weekDaysNames[w].." / ".. monthNames[m].." / ".. d .." / ".. y ..[[</text>]]
            
 end
-
-
-
 
 function ToggleHUD()
     if HUDMode == true then
