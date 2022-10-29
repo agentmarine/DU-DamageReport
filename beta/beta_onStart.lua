@@ -368,11 +368,10 @@ function epochTime()
     local monthNames = {"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"}
     local monthShortNames = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"}
 
-    return [[<text class="f250mx" x="960" y="540">]]..h.." : "..n..[[</text>]]..
+    return [[<text class="f250mx" x="960" y="540">]]..string.format("%02d",h).." : "..string.format("%02d",n)..[[</text>]]..
            [[<text class="f100mx" x="960" y="660">]]..weekDaysNames[w].." / ".. monthNames[m].." / ".. d .." / ".. y ..[[</text>]]
            
 end
-
 
 function ToggleHUD()
     if HUDMode == true then
