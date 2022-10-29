@@ -30,7 +30,7 @@ A multi-screen capable, touch enabled, easy to install ship damage reporting scr
 [![](https://img.shields.io/badge/Wiki-Roadmap-yellowgreen?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Roadmap)
 [![](https://img.shields.io/badge/Wiki-Known_Issues-red?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Known-Issues)
 
-# DU-LUA.Dev
+# Edit Code
 [![](https://img.shields.io/badge/EDIT_CODE-DU--DEV.Dev-informational?style=for-the-badge)](https://du-lua.dev/#/editor/github/LocuraDU/DU-DamageReport)
 
 # Important Notes
