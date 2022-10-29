@@ -24,14 +24,14 @@ A multi-screen capable, touch enabled, easy to install ship damage reporting scr
 <img src="img/1a.png" height="136" width="200"><img src="img/1.png" height="136" width="200"><img src="img/2.png" height="136" width="200"><img src="img/3.png" height="136" width="200"><img src="img/4.png" height="136" width="200"><img src="img/5.png" height="136" width="200">
 
 # Wiki
-[![](https://img.shields.io/badge/Wiki-Changelog-informational?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Changelog)
+[![](https://img.shields.io/badge/Wiki-Changelog-yellow?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Changelog)
 [![](https://img.shields.io/badge/Wiki-Installation-informational?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Installation)
 [![](https://img.shields.io/badge/Wiki-Usage-informational?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Usage)
-[![](https://img.shields.io/badge/Wiki-Roadmap-informational?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Roadmap)
-[![](https://img.shields.io/badge/Wiki-Known_Issues-informational?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Known-Issues)
+[![](https://img.shields.io/badge/Wiki-Roadmap-yellowgreen?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Roadmap)
+[![](https://img.shields.io/badge/Wiki-Known_Issues-red?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Known-Issues)
 
 # DU-LUA.Dev
-[![img](img/open_in_editor_button.png)](https://du-lua.dev/#/editor/github/LocuraDU/DU-DamageReport)
+[![](https://img.shields.io/badge/EDIT_CODE-DU--DEV.Dev-informational?style=for-the-badge)](https://du-lua.dev/#/editor/github/LocuraDU/DU-DamageReport)
 
 # Important Notes
 
