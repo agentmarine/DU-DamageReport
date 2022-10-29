@@ -2758,9 +2758,13 @@ function GetContentSettings1()
             [[<svg x=940 y=150 width=936 height=774>]] ..
                 [[<rect class=xborder x=0 y=0 rx=5 ry=5 width=936 height=774 stroke-dasharray="2 5" />]] ..
                 [[<rect class=xborder x=0 y=0 rx=5 ry=5 width=936 height=50 />]] ..
-                [[<text class=f30mxx x=468 y=35>Explanation / Hints</text>]] ..
-                [[<text class=f30mxx x=468 y=400>Coming soon.</text>]]
-
+                [[<text class=f30mxx x=468 y=35>Locura</text>]] ..
+                [[<text class=f30mxx x=468 y=100>DU-DamageReport v3.32</text>]] ..
+                [[<text class=f30mxx x=468 y=120>------------------------------------------</text>]] ..
+                [[<text class=f30mxx x=468 y=140>Visit GitHub/LocuraDU for help or updates.</text>]] ..
+                [[<text class=f30mxx x=468 y=200>DU-Locura-Storage-Info</text>]] ..
+                [[<text class=f30mxx x=468 y=220>------------------------------------------</text>]] ..
+                [[<text class=f30mxx x=468 y=240>Simple easy to use storage monitor.</text>]]
 
     output = output .. [[</svg>]]
 
