@@ -1,23 +1,14 @@
 --[[
-    Damage Report 3.31e
+    Damage Report 3.32
     A LUA script for Dual Universe
 
     Created By Dorian Gray
     Maintained By CredenceH
 
-    3.31e changes:
-      [FIX] fixed version mismatched
-
     You can find/update this script on GitHub. Explanations, installation and usage information as well as screenshots can be found there too.
     GitHub: https://github.com/LocuraDU/DU-DamageReport
 
     GNU Public License 3.0. Use whatever you want, be so kind to leave credit.
-
-    Credits & thanks:
-        Thanks to Jericho, Dmentia, Archaegeo, and blazemonger for learning a lot from their fine scripts.
-        Thanks to TheBlacklist for testing and wonderful suggestions.
-        SVG patterns by Hero Patterns.
-        DU atlas data from Jayle Break.
 
 ]]
 
@@ -59,7 +50,7 @@ ColorFuelAtmospheric = "004444" -- Enter the hexcode of the atmospheric fuel col
 ColorFuelSpace = "444400" -- Enter the hexcode of the space fuel color.
 ColorFuelRocket = "440044" -- Enter the hexcode of the rocket fuel color.
 
-VERSION = "3.31e"
+VERSION = "3.32"
 DebugMode = false
 DebugRenderClickareas = true
 
