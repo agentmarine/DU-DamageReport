@@ -25,6 +25,23 @@ A multi-screen capable, touch enabled, easy to install ship damage reporting scr
 # Preview
 <img src="img/1a.png" height="136" width="200"><img src="img/1.png" height="136" width="200"><img src="img/2.png" height="136" width="200"><img src="img/3.png" height="136" width="200"><img src="img/4.png" height="136" width="200"><img src="img/5.png" height="136" width="200">
 
+# Features
+- Settings screen
+- Fuel level screen (Atmo/Space/Rocket)
+- Time and date screen
+- Damage item screen
+- Damage overview screen
+- Easy find damaged items with arrows
+- Change backgrounds, or dont use one
+- Change all colors
+- HUD mode for out of ship repairs
+- Scrap tier calculations
+- Runs with a single monitor, or with many
+- Touchscreen enabled
+- Control each monitor independently
+- Will also run without a monitor using HUD mode
+- Saves data to databank
+
 # Wiki
 [![](https://img.shields.io/badge/Wiki-Changelog-yellow?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Changelog)
 [![](https://img.shields.io/badge/Wiki-Installation-informational?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Installation)
