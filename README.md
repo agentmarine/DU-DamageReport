@@ -35,10 +35,6 @@ A multi-screen capable, touch enabled, easy to install ship damage reporting scr
 # Edit Code
 [![](https://img.shields.io/badge/EDIT_CODE-DU--DEV.Dev-informational?style=for-the-badge)](https://du-lua.dev/#/editor/github/LocuraDU/DU-DamageReport)
 
-# Important Notes
-
- This script is comparably intense in regards to DU CPU resources required. Using many screens, using it on a ship with many (1000+) elements, clicking rapidly on the settings page, and/or having many damaged elements will most likely cause a script shutdown due to the limited CPU time we get. Using less screens and clicking a tiny bit slower during color selection will help. For now, I am not limiting the number of screens you can use (up to 8), but you will see that 1-3 screens works a lot smoother than more. - Finally, all scripts you run in parallel share one CPU limit, so I advise to switch this script off while you are using e.g. a heavy flight hud script. You have been warned. :)
-
 # Screen And Sign Compatibility
 :blue_square: Not Tested :green_square: Working :yellow_square: Partially Works Without Edits :red_square: Not Working Without Edits
 > **Note**
