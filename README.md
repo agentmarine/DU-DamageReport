@@ -6,7 +6,7 @@ A multi-screen capable, touch enabled, easy to install ship damage reporting scr
 
 [![](https://img.shields.io/badge/DU-1.0.10-green?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/2000270/Dual_Universe/)
 [![](https://img.shields.io/badge/Maintained-YES-green?style=for-the-badge)](#)
-[![](https://img.shields.io/badge/VERSION-v3.31e-green?style=for-the-badge)](#)
+[![](https://img.shields.io/badge/VERSION-v3.32-green?style=for-the-badge)](#)
 ![](https://komarev.com/ghpvc/?username=DU-DamageReport&style=for-the-badge)
 ---
 [![](https://img.shields.io/github/issues/locuradu/DU-DamageReport?style=flat-square&label=ISSUES)](#)
