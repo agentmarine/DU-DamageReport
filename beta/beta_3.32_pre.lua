@@ -1,5 +1,5 @@
 --[[
-    Damage Report 3.32
+    Damage Report 3.32b
     A LUA script for Dual Universe
 
     Created By Dorian Gray
@@ -50,7 +50,7 @@ ColorFuelAtmospheric = "004444" -- Enter the hexcode of the atmospheric fuel col
 ColorFuelSpace = "444400" -- Enter the hexcode of the space fuel color.
 ColorFuelRocket = "440044" -- Enter the hexcode of the rocket fuel color.
 
-VERSION = "3.32"
+VERSION = "3.32b"
 DebugMode = false
 DebugRenderClickareas = true
 
@@ -110,7 +110,7 @@ CurrentBrokenPage = 1
 DamagePageSize = 12
 ScrapTier = 1
 totalScraps = 0
-ScrapTierRepairTimes = { 10, 50, 250, 1250 }
+ScrapTierRepairTimes = { 10, 50, 250, 1250, 3690, }
 
 coreWorldOffset = 0
 totalShipHP = 0
@@ -963,7 +963,7 @@ function GetContentDamageHUDOutput()
                             [[<text x="150" y="15" class="f12mxx">Up/down arrows to highlight</text>]] ..
                             [[<text x="150" y="30" class="f12mxx">CTRL + arrows to move HUD</text>]] ..
                             [[<text x="150" y="45" class="f12mxx">Left arrow to toggle HUD Mode</text>]] ..
-                            [[<text x="150" y="60" class="f12mxx">ALT+1-4 to set Scrap Tier</text>]] ..
+                            [[<text x="150" y="60" class="f12mxx">ALT+1-5 to set Scrap Tier</text>]] ..
                             [[<text x="150" y="75" class="f12mxx">ALT+8 to reset HUD position</text>]] ..
                             [[<text x="150" y="90" class="f12mxx">ALT+9 to shut script off</text>]] ..
                         [[<svg>]] ..
@@ -1295,6 +1295,13 @@ end
 function ActionOption4()
     if DisallowKeyPresses == true then return end
     ScrapTier = 4
+    SetRefresh("damage")
+    RenderScreens("damage")
+end
+
+function ActionOption5()
+    if DisallowKeyPresses == true then return end
+    ScrapTier = 5
     SetRefresh("damage")
     RenderScreens("damage")
 end
@@ -2266,7 +2273,7 @@ function CheckClick(x, y, HitTarget)
                     end
                 elseif (HitTarget == "SwitchScrapTier" or HitTarget == "SwitchScrapTier2") and (HitPayload.mode == screens[i].mode or HitPayload.mode == "all") then
                     ScrapTier = ScrapTier + 1
-                    if ScrapTier > 4 then ScrapTier = 1 end
+                    if ScrapTier > 5 then ScrapTier = 1 end
                     SetRefresh("damage")
                     RenderScreens("damage")
                 end
