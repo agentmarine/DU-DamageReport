@@ -1345,8 +1345,6 @@ function InitiateSlots()
                 db = slot
             elseif elementClass == "screenunit"
             or elementClass == 'screensignunit' then
-                
-                
                 local iScreenMode = "startup"
                 screens[#screens + 1] = {
                     element = slot,
