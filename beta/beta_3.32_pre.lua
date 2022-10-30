@@ -1343,7 +1343,10 @@ function InitiateSlots()
                 end
             elseif elementClass == 'databankunit' then
                 db = slot
-            elseif elementClass == "screenunit" then
+            elseif elementClass == "screenunit"
+            or elementClass == 'screensignunit' then
+                
+                
                 local iScreenMode = "startup"
                 screens[#screens + 1] = {
                     element = slot,
