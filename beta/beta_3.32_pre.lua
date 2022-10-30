@@ -25,9 +25,10 @@ StatRocketFuelTankHandling = 0 --export (0-5) Enter the LEVEL OF YOUR PLACED FUE
 StatContainerOptimization = 0 --export (0-5) Enter the LEVEL OF YOUR PLACED FUEL TANKS "from the builders talent Mining and Inventory -> Stock Control -> Container Optimization"
 StatFuelTankOptimization = 0 --export (0-5) Enter the LEVEL OF YOUR PLACED FUEL TANKS "from the builders talent Mining and Inventory -> Stock Control -> Fuel Tank Optimization"
 
+HideWidget = true --export: Hides the bottom right widget
 ShowWelcomeMessage = true --export Do you want the welcome message on the start screen with your name?
 DisallowKeyPresses = false --export Need your keys for other scripts/huds and want to prevent Damage Report keypresses to be processed? Then check this. (Usability of the HUD mode will be small.)
-AddSummertimeHour = false --export: Is summertime currently enabled in your location? (Adds one hour.)
+-- AddSummertimeHour = false --export: Is summertime currently enabled in your location? (Adds one hour.)
 
 -- SkillAtmosphericFuelEfficiency = 0 --export Enter (0-5) your talent "Mining and Inventory -> Equipment Manager -> Repair Tool Efficiency"
 -- SkillSpaceFuelEfficiency = 0 --export Enter (0-5) your talent "Mining and Inventory -> Equipment Manager -> Repair Tool Efficiency"
@@ -3091,12 +3092,12 @@ function OnTickData(initial)
 end
 
 --[[ 7. EXECUTION ]]
-unit.hideWidget()
+if HideWidget then unit.hideWidget() end
 ClearConsole()
-system.print("----------------------------------------")
+system.print("------------------------------------------------------------------------")
 system.print("DAMAGE REPORT v" .. VERSION)
 system.print("GitHub/LocuraDU")
-system.print("----------------------------------------")
+system.print("------------------------------------------------------------------------")
 -- PrintConsole("DAMAGE REPORT v"..VERSION.." STARTED", true)
 InitiateSlots()
 LoadFromDatabank()
