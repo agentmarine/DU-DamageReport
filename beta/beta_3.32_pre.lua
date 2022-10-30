@@ -780,7 +780,7 @@ end
 
 function GetElementLogo(x, y, primaryC, secondaryC, tertiaryC)
     x = 750
-    y = 320
+    y = 300
     primaryC = primaryC or "f"
     secondaryC = secondaryC or "f2"
     tertiaryC = tertiaryC or "f3"
@@ -2643,32 +2643,29 @@ function GetContentTime()
     local output = ""
     output = output .. GetHeader("Time") .. epochTime()
     output = output ..
-                [[<svg x=460 y=370 width=120 height=150 viewBox="0 0 24 30">
-                    <rect x=0 y=13 width=4 height=5 fill=#]]..ColorPrimary..[[>
-                      <animate attributeName="height" attributeType="XML"
-                        values="5;21;5"
-                        begin="0s" dur="1s" repeatCount="indefinite" />
-                      <animate attributeName="y" attributeType="XML"
-                        values="13; 5; 13"
-                        begin="0s" dur="1s" repeatCount="indefinite" />
-                    </rect>
-                    <rect x=10 y=13 width=4 height=5 fill=#]]..ColorPrimary..[[>
-                      <animate attributeName="height" attributeType="XML"
-                        values="5;21;5"
-                        begin="0.15s" dur="1s" repeatCount="indefinite" />
-                      <animate attributeName="y" attributeType="XML"
-                        values="13; 5; 13"
-                        begin="0.15s" dur="1s" repeatCount="indefinite" />
-                    </rect>
-                    <rect x=20 y=13 width=4 height=5 fill=#]]..ColorPrimary..[[>
-                      <animate attributeName="height" attributeType="XML"
-                        values="5;21;5"
-                        begin="0.3s" dur="1s" repeatCount="indefinite" />
-                      <animate attributeName="y" attributeType="XML"
-                        values="13; 5; 13"
-                        begin="0.3s" dur="1s" repeatCount="indefinite" />
-                    </rect>
-                  </svg>]]
+                [[
+                <svg x=440 y=350 width=170 height=200 viewBox="0 0 100 100">
+<circle fill="none" stroke="#]]..ColorPrimary..[[" stroke-width="4" stroke-miterlimit="10" cx="50" cy="50" r="48"/>
+<line fill="none" stroke-linecap="round" stroke="#fff" stroke-width="4" stroke-miterlimit="10" x1="50" y1="50" x2="85" y2="50.5">
+  <animateTransform 
+       attributeName="transform" 
+       dur="2s"
+       type="rotate"
+       from="0 50 50"
+       to="360 50 50"
+       repeatCount="indefinite" />
+</line>
+<line fill="none" stroke-linecap="round" stroke="#]]..ColorPrimary..[[" stroke-width="4" stroke-miterlimit="10" x1="50" y1="50" x2="49.5" y2="74">
+  <animateTransform 
+       attributeName="transform" 
+       dur="15s"
+       type="rotate"
+       from="0 50 50"
+       to="360 50 50"
+       repeatCount="indefinite" />
+</line>
+</svg>
+             ]]
     return output
 end
 
@@ -2790,9 +2787,9 @@ function GetContentStartup()
     local output = ""
     output = output .. GetElementLogo(812, 380, "f", "f", "f")
     if YourShipsName == "Enter here" then
-        output = output .. [[<g><text class="f160m" x="960" y="330">Spaceship ID ]]..ShipID..[[</text><animate attributeName="fill" values="#]]..ColorPrimary..[[;#]]..ColorSecondary..[[;#]]..ColorPrimary..[[" dur="30s" repeatCount="indefinite" /></g>]]
+        output = output .. [[<g><text class="f160m" x="960" y="250">Spaceship ID ]]..ShipID..[[</text><animate attributeName="fill" values="#]]..ColorPrimary..[[;#]]..ColorSecondary..[[;#]]..ColorPrimary..[[" dur="30s" repeatCount="indefinite" /></g>]]
     else
-        output = output .. [[<g><text class="f160m" x="960" y="330">]]..YourShipsName..[[</text><animate attributeName="fill" values="#]]..ColorPrimary..[[;#]]..ColorSecondary..[[;#]]..ColorPrimary..[[" dur="30s" repeatCount="indefinite" /></g>]]
+        output = output .. [[<g><text class="f160m" x="960" y="250">]]..YourShipsName..[[</text><animate attributeName="fill" values="#]]..ColorPrimary..[[;#]]..ColorSecondary..[[;#]]..ColorPrimary..[[" dur="30s" repeatCount="indefinite" /></g>]]
     end
     if ShowWelcomeMessage == true then output = output .. [[<text class="f50mx" x="960" y="750">Greetings, Commander ]]..PlayerName..[[.</text>]] end
     if #Warnings > 0 then
