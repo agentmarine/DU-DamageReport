@@ -37,7 +37,7 @@ DisallowKeyPresses = false --export Need your keys for other scripts/huds and wa
 --[[ 2. GLOBAL VARIABLES ]]
 
 UpdateDataInterval = 1.0 -- How often shall the data be updated? (Increase if running into CPU issues.)
-HighlightBlinkingInterval = 1.0 -- How fast shall highlight arrows of marked elements blink?
+HighlightBlinkingInterval = 0.5 -- How fast shall highlight arrows of marked elements blink?
 
 ColorPrimary = "FF6700" -- Enter the hexcode of the main color to be used by all views.
 ColorSecondary = "FFFFFF" -- Enter the hexcode of the secondary color to be used by all views.
