@@ -42,7 +42,7 @@ A multi-screen capable, touch enabled, easy to install ship damage reporting scr
 - Will also run without a monitor using HUD mode
 - Saves data to databank
 
-# Wiki
+# Installation / Documentation / Wiki
 [![](https://img.shields.io/badge/Wiki-Changelog-yellow?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Changelog)
 [![](https://img.shields.io/badge/Wiki-Installation-informational?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Installation)
 [![](https://img.shields.io/badge/Wiki-Usage-informational?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Usage)
