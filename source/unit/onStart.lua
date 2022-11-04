@@ -1,5 +1,5 @@
 --[[
-    Damage Report 3.34
+    Damage Report 3.35
     A LUA script for Dual Universe
 
     Created By Dorian Gray
@@ -51,7 +51,7 @@ ColorFuelAtmospheric = "004444" -- Enter the hexcode of the atmospheric fuel col
 ColorFuelSpace = "444400" -- Enter the hexcode of the space fuel color.
 ColorFuelRocket = "440044" -- Enter the hexcode of the rocket fuel color.
 
-VERSION = "3.34"
+VERSION = "3.35"
 DebugMode = false
 DebugRenderClickareas = true
 
