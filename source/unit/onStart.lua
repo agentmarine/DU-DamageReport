@@ -420,7 +420,7 @@ function ChangeHudSelectedElement(step)
         if hudSelectedIndex ~= 0 then
             highlightID = rE[hudSelectedIndex].id
             if highlightID ~=nil and highlightID ~= 0 then
-                -- PrintConsole("CHSE: hudSelectedIndex: "..hudSelectedIndex.." / hudStartIndex: "..hudStartIndex.." / highlightID: "..highlightID)
+                PrintConsole("CHSE: hudSelectedIndex: "..hudSelectedIndex.." / hudStartIndex: "..hudStartIndex.." / highlightID: "..highlightID)
                 HideHighlight()
                 elementPosition = vec3(rE[hudSelectedIndex].pos)
                 highlightX = elementPosition.x
@@ -459,7 +459,8 @@ function ShowHighlight()
 end
 
 function ToggleHighlight()
-    if highlightOn == true then
+    if highlightOn == true 
+    then
         highlightOn = false
         HideHighlight()
     else
@@ -3118,4 +3119,4 @@ end
 OnTickData(true)
 
 unit.setTimer('UpdateData', UpdateDataInterval)
-unit.setTimer('UpdateHighlight', HighlightBlinkingInterval)
+--unit.setTimer('UpdateHighlight', HighlightBlinkingInterval)
