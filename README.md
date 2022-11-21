@@ -24,7 +24,7 @@ A multi-screen capable, touch enabled, easy to install ship damage reporting scr
 
 # Preview
 [![](img/DUDRSmallBanner.png)](#)
-<img src="img/1a.png" height="136" width="200"><img src="img/1.png" height="136" width="200"><img src="img/2.png" height="136" width="200"><img src="img/3.png" height="136" width="200"><img src="img/4.png" height="136" width="200"><img src="img/5.png" height="136" width="200">
+<img src="img/1a.png" height="136" width="200"><img src="img/1.png" height="136" width="200"><img src="img/2.png" height="136" width="200"><img src="img/3.png" height="136" width="200"><img src="img/4.png" height="136" width="200"><img src="img/5.png" height="136" width="200"> 
 
 # Features
 - Settings screen
