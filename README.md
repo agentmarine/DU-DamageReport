@@ -4,7 +4,7 @@
 # Information
 A multi-screen capable, touch enabled, easy to install ship damage reporting script for Dual Universe. Includes a HUD mode to be mobile while repairing. Highlights damaged/broken elements in 3D space for easier finding.
 
-[![](https://img.shields.io/badge/DU-1.3.X-green?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/2000270/Dual_Universe/)
+[![](https://img.shields.io/badge/DU-1.4.X-green?style=for-the-badge&logo=steam)](https://store.steampowered.com/app/2000270/Dual_Universe/)
 [![](https://img.shields.io/badge/Maintained-YES-green?style=for-the-badge)](#)
 [![](https://img.shields.io/badge/VERSION-v3.35-green?style=for-the-badge)](#)
 ![](https://komarev.com/ghpvc/?username=DU-DamageReport&style=for-the-badge)
