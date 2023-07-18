@@ -1,3 +1,6 @@
+:heavy_exclamation_mark: | If NQ doesnt care about this script, then I dont either... project is dead couldnt care less about it anymore.
+:---: | :---
+
 :heavy_exclamation_mark: | HTML on screens and signs is off by default. You will need to enter settings and enable them.
 :---: | :---
 
