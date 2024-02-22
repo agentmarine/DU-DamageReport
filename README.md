@@ -12,18 +12,18 @@ A multi-screen capable, touch enabled, easy to install ship damage reporting scr
 [![](https://img.shields.io/badge/VERSION-v3.35-green?style=for-the-badge)](#)
 ![](https://komarev.com/ghpvc/?username=DU-DamageReport&style=for-the-badge)
 ---
-[![](https://img.shields.io/github/issues/locuradu/DU-DamageReport?style=flat-square&label=ISSUES)](#)
-[![](https://img.shields.io/github/issues-closed/locuradu/DU-DamageReport?style=flat-square&label=ISSUES)](#)
-[![](https://img.shields.io/github/watchers/locuradu/DU-DamageReport?style=flat-square&label=WATCHERS)](#)
-[![](https://img.shields.io/github/stars/locuradu/DU-DamageReport?style=flat-square&label=STARS)](#)
-[![](https://img.shields.io/github/forks/locuradu/DU-DamageReport?style=flat-square&label=FORKS)](#)
-[![](https://img.shields.io/github/commit-activity/m/locuradu/DU-DamageReport?style=flat-square&label=COMMIT%20ACTIVITY)](#)
-[![](https://img.shields.io/github/discussions/locuradu/DU-DamageReport?label=DISCUSSIONS&style=flat-square)](#)
-[![](https://img.shields.io/github/last-commit/locuradu/DU-DamageReport?label=LAST%20COMMIT&style=flat-square)](#)
-[![](https://img.shields.io/github/contributors/locuradu/DU-DamageReport?label=CONTRIBUTORS&style=flat-square)](#)
-[![](https://img.shields.io/github/releases/locuradu/DU-DamageReport?label=RELEASES&style=flat-square)](#)
-[![](https://img.shields.io/github/repo-size/LocuraDU/DU-DamageReport?label=REPO%20SIZE&style=flat-square)](#)
-[![](https://img.shields.io/github/license/LocuraDU/DU-DamageReport?label=LICENSE&style=flat-square)](#)
+[![](https://img.shields.io/github/issues/agentmarine/DU-DamageReport?style=flat-square&label=ISSUES)](#)
+[![](https://img.shields.io/github/issues-closed/agentmarine/DU-DamageReport?style=flat-square&label=ISSUES)](#)
+[![](https://img.shields.io/github/watchers/agentmarine/DU-DamageReport?style=flat-square&label=WATCHERS)](#)
+[![](https://img.shields.io/github/stars/agentmarine/DU-DamageReport?style=flat-square&label=STARS)](#)
+[![](https://img.shields.io/github/forks/agentmarine/DU-DamageReport?style=flat-square&label=FORKS)](#)
+[![](https://img.shields.io/github/commit-activity/m/agentmarine/DU-DamageReport?style=flat-square&label=COMMIT%20ACTIVITY)](#)
+[![](https://img.shields.io/github/discussions/agentmarine/DU-DamageReport?label=DISCUSSIONS&style=flat-square)](#)
+[![](https://img.shields.io/github/last-commit/agentmarine/DU-DamageReport?label=LAST%20COMMIT&style=flat-square)](#)
+[![](https://img.shields.io/github/contributors/agentmarine/DU-DamageReport?label=CONTRIBUTORS&style=flat-square)](#)
+[![](https://img.shields.io/github/releases/agentmarine/DU-DamageReport?label=RELEASES&style=flat-square)](#)
+[![](https://img.shields.io/github/repo-size/agentmarine/DU-DamageReport?label=REPO%20SIZE&style=flat-square)](#)
+[![](https://img.shields.io/github/license/agentmarine/DU-DamageReport?label=LICENSE&style=flat-square)](#)
 
 # Preview
 [![](img/DUDRSmallBanner.png)](#)
@@ -47,14 +47,14 @@ A multi-screen capable, touch enabled, easy to install ship damage reporting scr
 - Saves data to databank
 
 # Installation / Documentation / Wiki
-[![](https://img.shields.io/badge/Wiki-Changelog-yellow?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Changelog)
-[![](https://img.shields.io/badge/Wiki-Installation-informational?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Installation)
-[![](https://img.shields.io/badge/Wiki-Usage-informational?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Usage)
-[![](https://img.shields.io/badge/Wiki-Roadmap-yellowgreen?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Roadmap)
-[![](https://img.shields.io/badge/Wiki-Known_Issues-red?style=for-the-badge)](https://github.com/LocuraDU/DU-DamageReport/wiki/Known-Issues)
+[![](https://img.shields.io/badge/Wiki-Changelog-yellow?style=for-the-badge)](https://github.com/agentmarine/DU-DamageReport/wiki/Changelog)
+[![](https://img.shields.io/badge/Wiki-Installation-informational?style=for-the-badge)](https://github.com/agentmarine/DU-DamageReport/wiki/Installation)
+[![](https://img.shields.io/badge/Wiki-Usage-informational?style=for-the-badge)](https://github.com/agentmarine/DU-DamageReport/wiki/Usage)
+[![](https://img.shields.io/badge/Wiki-Roadmap-yellowgreen?style=for-the-badge)](https://github.com/agentmarine/DU-DamageReport/wiki/Roadmap)
+[![](https://img.shields.io/badge/Wiki-Known_Issues-red?style=for-the-badge)](https://github.com/agentmarine/DU-DamageReport/wiki/Known-Issues)
 
 # Edit Code
-[![](https://img.shields.io/badge/EDIT_CODE-DU--DEV.Dev-informational?style=for-the-badge)](https://du-lua.dev/#/editor/github/LocuraDU/DU-DamageReport)
+[![](https://img.shields.io/badge/EDIT_CODE-DU--DEV.Dev-informational?style=for-the-badge)](https://du-lua.dev/#/editor/github/agentmarine/DU-DamageReport)
 
 # Screen And Sign Compatibility
 :blue_square: Not Tested :green_square: Working :yellow_square: Partially Works Without Edits :red_square: Not Working Without Edits
