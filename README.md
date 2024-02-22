@@ -73,15 +73,15 @@ A multi-screen capable, touch enabled, easy to install ship damage reporting scr
 - Join or start a discussion on the discussions tab
 
 # In Game
-- CredenceH (Dual Universe)
-- Locura (Dual Universe)
-- NoobTheory (Dual Universe)
+- Agentmarine (Dual Universe)
+- Discord [![](https://img.shields.io/discord/1204959265245372416)](https://discord.gg/A8WNSd9ReQ)
 
 # Other
 > **Note**
 > - This was originally a fork from (https://github.com/DorianTheGrey).
 > - Also Based on work by (https://github.com/paulheu).
 > - Also Based on work by (https://github.com/Jericho1060).
+> - additionally forked from LocuraDU (https://github.com/LocuraDU/DU-DamageReport)
 
 > **Warning**
 > This may or may not work with some screens or signs. Please check list above for compatibility.
